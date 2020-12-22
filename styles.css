@@ -61,7 +61,7 @@ width: 19%
 }
 .overlay {
 position: absolute;
-left: 10%;
+left: 2%;
 bottom: 0;
 right: 0;
 background-color: red;
@@ -116,7 +116,7 @@ transition: .5s ease;
 }
 
 .navbar{
-height: 20%;
+height: 25%;
 background-image: url('Navbar background.jpg');
 background-size: cover;
 
