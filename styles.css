@@ -80,6 +80,7 @@ background-color: #1589ff;
 overflow: hidden;
 width: 20%;
 height: 0;
+word-wrap: break-word;
 transition: .5s ease;
 }
 .overlay2 {
