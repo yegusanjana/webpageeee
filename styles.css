@@ -85,6 +85,7 @@ transition: .5s ease;
 .overlay2 {
 position: absolute;
 bottom: 0;
+top:35%;
 left: 40%;
 right: 0;
 background-color: #4cc417;
@@ -107,6 +108,7 @@ transition: .5s ease;
 .overlay4 {
 position: absolute;
 bottom: 0;
+top:35%;
 left: 80%;
 right: 10%;
 background-color: #ffa62f;
