@@ -36,7 +36,7 @@ h2 {
 
 .column {
   flex: 20%;
-  padding: 5px;
+  padding: 2%;
 
 }
 .column:hover .overlay{
@@ -61,7 +61,7 @@ width: 19%
 }
 .overlay {
 position: absolute;
-left: 10px;
+left: 10%;
 bottom: 0;
 right: 0;
 background-color: red;
@@ -107,7 +107,7 @@ transition: .5s ease;
 position: absolute;
 bottom: 0;
 left: 80%;
-right: 10px;
+right: 10%;
 background-color: #ffa62f;
 overflow: hidden;
 width: 20%;
@@ -116,7 +116,7 @@ transition: .5s ease;
 }
 
 .navbar{
-height: 230px;
+height: 20%;
 background-image: url('Navbar background.jpg');
 background-size: cover;
 
