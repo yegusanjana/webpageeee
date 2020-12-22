@@ -62,7 +62,8 @@ width: 19%
 .overlay {
 position: absolute;
 left: 1%;
-bottom: 0;
+top: 35%;
+bottom: inherit;
 right: 0;
 background-color: red;
 overflow: hidden;
