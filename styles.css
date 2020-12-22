@@ -1,0 +1,136 @@
+.logo{
+
+}
+
+
+h1 {
+  color: white;
+  font-family: "rouge script";
+   font-size: 6em;
+   margin: auto;
+   font-weight: 100;
+   font-style: cursive;
+   text-shadow: 1px 1px 2px black;
+   text-align: center;
+   padding-top: 0px;
+   float: inherit;
+   line-height: 1.2em;
+}
+
+h2 {
+  color: white;
+  margin: 0;
+  float: inherit;
+  text-align: center;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 50;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+.row {
+  display: flex;
+  margin-top: 10%;
+}
+
+.column {
+  flex: 20%;
+  padding: 5px;
+
+}
+.column:hover .overlay{
+  height: 64%;
+  width: 19%;
+}
+.column:hover .overlay1{
+  height: 64%;
+width: 20%
+}
+.column:hover .overlay2{
+  height: 64%;
+width: 20%
+}
+.column:hover .overlay3{
+  height: 64%;
+width: 20%
+}
+.column:hover .overlay4{
+  height:64%;
+width: 19%
+}
+.overlay {
+position: absolute;
+left: 10px;
+bottom: 0;
+right: 0;
+background-color: red;
+overflow: hidden;
+width: 20%;
+height: 0;
+transition: .5s ease;
+}
+.overlay1 {
+position: absolute;
+bottom: 0;
+left: 20%;
+right: 0;
+background-color: #1589ff;
+overflow: hidden;
+width: 20%;
+height: 0;
+transition: .5s ease;
+}
+.overlay2 {
+position: absolute;
+bottom: 0;
+left: 40%;
+right: 0;
+background-color: #4cc417;
+overflow: hidden;
+width: 20%;
+height: 0;
+transition: .5s ease;
+}
+.overlay3 {
+position: absolute;
+bottom: 0;
+left: 60%;
+right: 0;
+background-color:red ;
+overflow: hidden;
+width: 20%;
+height: 0;
+transition: .5s ease;
+}
+.overlay4 {
+position: absolute;
+bottom: 0;
+left: 80%;
+right: 10px;
+background-color: #ffa62f;
+overflow: hidden;
+width: 20%;
+height: 0;
+transition: .5s ease;
+}
+
+.navbar{
+height: 230px;
+background-image: url('Navbar background.jpg');
+background-size: cover;
+
+}
+
+body {
+background-color: white;
+}
+
+a{
+  color: yellow;
+}
+.text {
+  text-align: center;
+  vertical-align: center;
+  line-height: 400px;
+}
