@@ -116,9 +116,9 @@ transition: .5s ease;
 }
 
 .navbar{
-height: 100%;
-  padding-bottom:1%;
-  background-image: url('nbg.jpg');
+height: 300px;
+padding-bottom:1%;
+background-image: url('nbg.jpg');
 background-size: cover;
 
 }
