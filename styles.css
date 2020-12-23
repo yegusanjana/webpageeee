@@ -114,23 +114,12 @@ width: 20%;
 height: 0;
 transition: .5s ease;
 }
-
 .navbar{
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-height: 100%;
-  padding-bottom:1%;
-  background-image: url('nbg.jpg');
-=======
->>>>>>> 752bab19481db7a724641660cfe18edd63390948
-height: 100%;
-  padding-bottom:1%;
-  background-image: url('nbg.jpg');
-background-size: cover;
-
+  background-image: url('bg.jpg');
+  height: 100%;
+  padding: 1%;
+ background-size: cover;
 }
-
 body {
 background-color: white;
 }
