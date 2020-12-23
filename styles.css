@@ -37,7 +37,7 @@ h2 {
 }
 .column:hover .overlay{
   height: 64%;
-  width: 19%;
+  width: 20%;
 }
 .column:hover .overlay1{
   height: 64%;
@@ -53,7 +53,7 @@ width: 20%
 }
 .column:hover .overlay4{
   height:64%;
-width: 19%
+width: 20%
 }
 .overlay {
 position: absolute;
@@ -118,7 +118,7 @@ transition: .5s ease;
 .navbar{
 height: 25%;
   padding-bottom:1%;
-  background-image: url('C:\Users\Annamalai\Desktop\ramsun webpage\bg.jpeg');
+  background-image: url('nbg.jpg');
 background-size: cover;
 
 }
