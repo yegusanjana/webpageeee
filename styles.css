@@ -122,7 +122,7 @@ transition: .5s ease;
 .navbar{
 height: 25%;
   padding-bottom:1%;
-background-image: url('bg.jpeg');
+background-image: url('nbg.jpg');
 background-size: cover;
 
 }
