@@ -37,7 +37,7 @@ h2 {
 }
 .column:hover .overlay{
   height: 64%;
-  width: 20%;
+  width:18%;
 }
 .column:hover .overlay1{
   height: 64%;
@@ -49,21 +49,20 @@ width: 20%
 }
 .column:hover .overlay3{
   height: 64%;
-width: 20%
+width: 21%;
 }
 .column:hover .overlay4{
   height:64%;
-width: 20%
+width: 19%;
 }
 .overlay {
 position: absolute;
 left: 1%;
-top: 35%;
-bottom: inherit;
+bottom: 0;
 right: 0;
 background-color: red;
 overflow: hidden;
-width: 20%;
+width: 18%;
 height: 0;
 transition: .5s ease;
 }
@@ -82,7 +81,6 @@ transition: .5s ease;
 .overlay2 {
 position: absolute;
 bottom: 0;
-top:35%;
 left: 40%;
 right: 0;
 background-color: #4cc417;
@@ -98,19 +96,18 @@ left: 60%;
 right: 0;
 background-color:red ;
 overflow: hidden;
-width: 20%;
+width: 21%;
 height: 0;
 transition: .5s ease;
 }
 .overlay4 {
 position: absolute;
 bottom: 0;
-top:35%;
 left: 80%;
 right: 10%;
 background-color: #ffa62f;
 overflow: hidden;
-width: 20%;
+width: 19%;
 height: 0;
 transition: .5s ease;
 }
