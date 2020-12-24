@@ -9,14 +9,38 @@
 
 	</head>
 	<body>
-		<div class="navbar">
+		<script>
+			window.onscroll = function() {scrollfn()};
+			function scrollfn()
+			{
+			  if(document.documentElement.scrollTop>50)
+			  {
+			    document.getElementById("nb").style.position = "fixed";
+			      document.getElementById("nb").style.zIndex = "1";
+			        document.getElementById("nb").style.height = "50px";
+                document.getElementById("headr").style.fontSize= "30px";
+								  document.getElementById("headr").style.lineHeight="0";
+									  document.getElementById("headr").style.marginRight="10%";
+			  }
+        else {
+					document.getElementById("nb").style.position = "static";
+			      document.getElementById("nb").style.zIndex = "0";
+			        document.getElementById("nb").style.height = "250px";
+							  document.getElementById("headr").style.fontSize= "60px";
+								  document.getElementById("headr").style.lineHeight="150px";
+									  document.getElementById("headr").style.marginRight="0%";
+        }
+			}
+
+		</script>
+		<div class="navbar" id="nb">
 <img src="logo.jpeg" id="logo"
 	alt="logo" style="width: 10%; margin-left:1%; margin-top:1%;">
  <ul>
  	<li id="homebutton"><a href="index.html">HOME</a></li>
  </ul>
 		<nav>
-    <h1>RAMSUN AUTOS</h1></nav>
+    <h1 id="headr">RAMSUN AUTOS</h1></nav>
 		</div>
 <div class="des">
 	<div class="pic">
