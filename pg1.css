@@ -1,5 +1,13 @@
 h1{
-	text-align: center;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    line-height: 150px;
+    margin-right: 0;
+    font-size: 60px;
+    font-family: 'Rouge script';
+    font-weight: 300;
+    text-shadow: 1px 1px 2px black, 0 0 25px orangered, 0 0 5px red;
 }
 .des,.pic{
 flex: 0 0 150px;
@@ -8,12 +16,12 @@ flex: 0 0 150px;
 
 .des{
 position: relative;
-	top: 750px;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	width: 100%;
-	padding: 20%;
-	box-sizing: border-box;
+margin-bottom: 2%;
+	width: 95%;
+	height: 800px;
+	padding: 2%;
+	margin-left: 2.5%;
+box-sizing: border-box;
 background-color: red;
 border-radius: 5px;
 box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
@@ -21,13 +29,33 @@ display:flex;
 }
 
 .content{
-	text-align: right;
-	margin-left: 10%;
+	text-align: left;
+    margin: 10% 5% 0% 35%;
   color: white;
 	font-size: 20px;
 }
 .navbar{
-  height: 100px;
-  padding: 1%;
- background-size: cover;
+	background-color: white;
+    padding: 1%;
+    height: 250px;
+    /* position: fixed; */
+	margin-bottom: 2%;
+  width: 98%;
+}
+
+html, body{
+	margin: 0;
+}
+
+#homebutton {
+    float: right;
+    list-style-type: none;
+}
+
+#logo {
+    float: left;
+}
+
+a {
+    text-decoration: none;
 }
