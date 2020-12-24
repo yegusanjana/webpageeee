@@ -3,11 +3,13 @@ h1{
     vertical-align: middle;
     color: white;
     line-height: 150px;
-    margin-right: 0;
+    margin-right:0 ;
+		margin-left: 5%;
     font-size: 60px;
     font-family: 'Rouge script';
     font-weight: 300;
     text-shadow: 1px 1px 2px black, 0 0 25px orangered, 0 0 5px red;
+		transition: 0.1s;
 }
 .des,.pic{
 flex: 0 0 150px;
@@ -34,13 +36,14 @@ display:flex;
   color: white;
 	font-size: 20px;
 }
-.navbar{
+#nb{
 	background-color: white;
     padding: 1%;
     height: 250px;
-    /* position: fixed; */
 	margin-bottom: 2%;
   width: 98%;
+	transition: 0s;
+	z-index: 0;
 }
 
 html, body{
@@ -56,6 +59,11 @@ html, body{
     float: left;
 }
 
-a {
+
+
+a {  background-color: red;
+	 display: block;
+	 padding: 10px 12px;
+	 color: white;
     text-decoration: none;
 }
