@@ -137,11 +137,12 @@ a{
    vertical-align: top;
  line-height: 200px;
 }
-@media only screen and (max-width:800px)
-{html , body{
-  transform: rotate(45deg);
-   height: 2000px;
-   width: 2000px;
-}
-
+@media all and (orientation: portrait) {
+    body {
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
 }
