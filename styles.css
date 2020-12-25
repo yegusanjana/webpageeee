@@ -140,7 +140,8 @@ a{
 @media only screen and (max-width:800px)
 {html , body{
   transform: rotate(45deg);
-   height: 100%;
+   height: 500px;
+   width: 1000px;
 }
 
 }
