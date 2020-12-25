@@ -144,8 +144,8 @@ a{
         -ms-transform: rotate(90deg);
         -o-transform: rotate(90deg);
         transform: rotate(90deg);
-        width:200%;
+        width:250%;
         height: 200%;
-        margin-top: 10%;
+        margin-top: 50%;
     }
 }
